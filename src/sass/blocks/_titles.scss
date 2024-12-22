@@ -5,13 +5,22 @@
     text-align: center;
     text-transform: uppercase;
 
-     @media screen and (max-width: 425px) {
+    @media screen and (max-width: 425px) {
         font-size: 25px;
-     }
+    }
 
     &_left {
         color: #fff;
         font-size: 36px;
         text-align: left;
+
+        @media screen and (max-width: 768px) {
+            font-size: 30px;
+            padding-left: 20px;
+        }
+
+        @media screen and (max-width: 576px) {
+            font-size: 20px;
+        }
     }
 }
